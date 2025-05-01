@@ -1,0 +1,4 @@
+---
+- name: Vérification que le rôle common fonctionne
+  debug:
+    msg: "Rôle common exécuté avec succès."
