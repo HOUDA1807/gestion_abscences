@@ -1,6 +1,6 @@
 ---
 - name: Déploiement de l'application
   hosts: all
-  become: true
+  become: false  
   roles:
     - common
